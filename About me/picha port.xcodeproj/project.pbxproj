@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC440F1E292535C60093D605 /* picha_portApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F1D292535C60093D605 /* picha_portApp.swift */; };
+		CC440F20292535C60093D605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F1F292535C60093D605 /* ContentView.swift */; };
+		CC440F22292535C70093D605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC440F21292535C70093D605 /* Assets.xcassets */; };
+		CC440F25292535C70093D605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC440F24292535C70093D605 /* Preview Assets.xcassets */; };
+		CC440F2F292535C70093D605 /* picha_portTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F2E292535C70093D605 /* picha_portTests.swift */; };
+		CC440F39292535C70093D605 /* picha_portUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F38292535C70093D605 /* picha_portUITests.swift */; };
+		CC440F3B292535C70093D605 /* picha_portUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F3A292535C70093D605 /* picha_portUITestsLaunchTests.swift */; };
+		CC440F48292536240093D605 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F47292536240093D605 /* Data.swift */; };
+		CC440F4A2925364C0093D605 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F492925364C0093D605 /* HomeView.swift */; };
+		CC440F4C292536820093D605 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F4B292536820093D605 /* FavoritesView.swift */; };
+		CC440F50292536BE0093D605 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F4F292536BE0093D605 /* StoryView.swift */; };
+		CC440F52292536E40093D605 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC440F51292536E40093D605 /* FunFactsView.swift */; };
+		CC440F56292537DA0093D605 /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC440F54292537DA0093D605 /* Silkscreen-Bold.ttf */; };
+		CC440F57292537DA0093D605 /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC440F55292537DA0093D605 /* Silkscreen-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC440F2B292535C70093D605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC440F12292535C60093D605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC440F19292535C60093D605;
+			remoteInfo = "picha port";
+		};
+		CC440F35292535C70093D605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC440F12292535C60093D605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC440F19292535C60093D605;
+			remoteInfo = "picha port";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC440F1A292535C60093D605 /* picha port.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "picha port.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC440F1D292535C60093D605 /* picha_portApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picha_portApp.swift; sourceTree = "<group>"; };
+		CC440F1F292535C60093D605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC440F21292535C70093D605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC440F24292535C70093D605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC440F2A292535C70093D605 /* picha portTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "picha portTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC440F2E292535C70093D605 /* picha_portTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picha_portTests.swift; sourceTree = "<group>"; };
+		CC440F34292535C70093D605 /* picha portUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "picha portUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC440F38292535C70093D605 /* picha_portUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picha_portUITests.swift; sourceTree = "<group>"; };
+		CC440F3A292535C70093D605 /* picha_portUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picha_portUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC440F47292536240093D605 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CC440F492925364C0093D605 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CC440F4B292536820093D605 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		CC440F4F292536BE0093D605 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		CC440F51292536E40093D605 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
+		CC440F54292537DA0093D605 /* Silkscreen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Bold.ttf"; sourceTree = "<group>"; };
+		CC440F55292537DA0093D605 /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Regular.ttf"; sourceTree = "<group>"; };
+		CC440F5829253ACF0093D605 /* picha-port-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "picha-port-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC440F17292535C60093D605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC440F27292535C70093D605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC440F31292535C70093D605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC440F11292535C60093D605 = {
+			isa = PBXGroup;
+			children = (
+				CC440F53292537C40093D605 /* font */,
+				CC440F1C292535C60093D605 /* picha port */,
+				CC440F2D292535C70093D605 /* picha portTests */,
+				CC440F37292535C70093D605 /* picha portUITests */,
+				CC440F1B292535C60093D605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC440F1B292535C60093D605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC440F1A292535C60093D605 /* picha port.app */,
+				CC440F2A292535C70093D605 /* picha portTests.xctest */,
+				CC440F34292535C70093D605 /* picha portUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC440F1C292535C60093D605 /* picha port */ = {
+			isa = PBXGroup;
+			children = (
+				CC440F5829253ACF0093D605 /* picha-port-Info.plist */,
+				CC440F1D292535C60093D605 /* picha_portApp.swift */,
+				CC440F1F292535C60093D605 /* ContentView.swift */,
+				CC440F4F292536BE0093D605 /* StoryView.swift */,
+				CC440F51292536E40093D605 /* FunFactsView.swift */,
+				CC440F47292536240093D605 /* Data.swift */,
+				CC440F492925364C0093D605 /* HomeView.swift */,
+				CC440F4B292536820093D605 /* FavoritesView.swift */,
+				CC440F21292535C70093D605 /* Assets.xcassets */,
+				CC440F23292535C70093D605 /* Preview Content */,
+			);
+			path = "picha port";
+			sourceTree = "<group>";
+		};
+		CC440F23292535C70093D605 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC440F24292535C70093D605 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC440F2D292535C70093D605 /* picha portTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC440F2E292535C70093D605 /* picha_portTests.swift */,
+			);
+			path = "picha portTests";
+			sourceTree = "<group>";
+		};
+		CC440F37292535C70093D605 /* picha portUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC440F38292535C70093D605 /* picha_portUITests.swift */,
+				CC440F3A292535C70093D605 /* picha_portUITestsLaunchTests.swift */,
+			);
+			path = "picha portUITests";
+			sourceTree = "<group>";
+		};
+		CC440F53292537C40093D605 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				CC440F54292537DA0093D605 /* Silkscreen-Bold.ttf */,
+				CC440F55292537DA0093D605 /* Silkscreen-Regular.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC440F19292535C60093D605 /* picha port */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC440F3E292535C70093D605 /* Build configuration list for PBXNativeTarget "picha port" */;
+			buildPhases = (
+				CC440F16292535C60093D605 /* Sources */,
+				CC440F17292535C60093D605 /* Frameworks */,
+				CC440F18292535C60093D605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "picha port";
+			productName = "picha port";
+			productReference = CC440F1A292535C60093D605 /* picha port.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC440F29292535C70093D605 /* picha portTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC440F41292535C70093D605 /* Build configuration list for PBXNativeTarget "picha portTests" */;
+			buildPhases = (
+				CC440F26292535C70093D605 /* Sources */,
+				CC440F27292535C70093D605 /* Frameworks */,
+				CC440F28292535C70093D605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC440F2C292535C70093D605 /* PBXTargetDependency */,
+			);
+			name = "picha portTests";
+			productName = "picha portTests";
+			productReference = CC440F2A292535C70093D605 /* picha portTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC440F33292535C70093D605 /* picha portUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC440F44292535C70093D605 /* Build configuration list for PBXNativeTarget "picha portUITests" */;
+			buildPhases = (
+				CC440F30292535C70093D605 /* Sources */,
+				CC440F31292535C70093D605 /* Frameworks */,
+				CC440F32292535C70093D605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC440F36292535C70093D605 /* PBXTargetDependency */,
+			);
+			name = "picha portUITests";
+			productName = "picha portUITests";
+			productReference = CC440F34292535C70093D605 /* picha portUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC440F12292535C60093D605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CC440F19292535C60093D605 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					CC440F29292535C70093D605 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CC440F19292535C60093D605;
+					};
+					CC440F33292535C70093D605 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CC440F19292535C60093D605;
+					};
+				};
+			};
+			buildConfigurationList = CC440F15292535C60093D605 /* Build configuration list for PBXProject "picha port" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC440F11292535C60093D605;
+			productRefGroup = CC440F1B292535C60093D605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC440F19292535C60093D605 /* picha port */,
+				CC440F29292535C70093D605 /* picha portTests */,
+				CC440F33292535C70093D605 /* picha portUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC440F18292535C60093D605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC440F57292537DA0093D605 /* Silkscreen-Regular.ttf in Resources */,
+				CC440F25292535C70093D605 /* Preview Assets.xcassets in Resources */,
+				CC440F56292537DA0093D605 /* Silkscreen-Bold.ttf in Resources */,
+				CC440F22292535C70093D605 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC440F28292535C70093D605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC440F32292535C70093D605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC440F16292535C60093D605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC440F50292536BE0093D605 /* StoryView.swift in Sources */,
+				CC440F4C292536820093D605 /* FavoritesView.swift in Sources */,
+				CC440F20292535C60093D605 /* ContentView.swift in Sources */,
+				CC440F52292536E40093D605 /* FunFactsView.swift in Sources */,
+				CC440F4A2925364C0093D605 /* HomeView.swift in Sources */,
+				CC440F48292536240093D605 /* Data.swift in Sources */,
+				CC440F1E292535C60093D605 /* picha_portApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC440F26292535C70093D605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC440F2F292535C70093D605 /* picha_portTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC440F30292535C70093D605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC440F39292535C70093D605 /* picha_portUITests.swift in Sources */,
+				CC440F3B292535C70093D605 /* picha_portUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC440F2C292535C70093D605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC440F19292535C60093D605 /* picha port */;
+			targetProxy = CC440F2B292535C70093D605 /* PBXContainerItemProxy */;
+		};
+		CC440F36292535C70093D605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC440F19292535C60093D605 /* picha port */;
+			targetProxy = CC440F35292535C70093D605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC440F3C292535C70093D605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC440F3D292535C70093D605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC440F3F292535C70093D605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"picha port/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "picha-port-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pichahaha.picha-port";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC440F40292535C70093D605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"picha port/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "picha-port-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pichahaha.picha-port";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC440F42292535C70093D605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pichahaha.picha-portTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picha port.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/picha port";
+			};
+			name = Debug;
+		};
+		CC440F43292535C70093D605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pichahaha.picha-portTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picha port.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/picha port";
+			};
+			name = Release;
+		};
+		CC440F45292535C70093D605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pichahaha.picha-portUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "picha port";
+			};
+			name = Debug;
+		};
+		CC440F46292535C70093D605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pichahaha.picha-portUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "picha port";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC440F15292535C60093D605 /* Build configuration list for PBXProject "picha port" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC440F3C292535C70093D605 /* Debug */,
+				CC440F3D292535C70093D605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC440F3E292535C70093D605 /* Build configuration list for PBXNativeTarget "picha port" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC440F3F292535C70093D605 /* Debug */,
+				CC440F40292535C70093D605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC440F41292535C70093D605 /* Build configuration list for PBXNativeTarget "picha portTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC440F42292535C70093D605 /* Debug */,
+				CC440F43292535C70093D605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC440F44292535C70093D605 /* Build configuration list for PBXNativeTarget "picha portUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC440F45292535C70093D605 /* Debug */,
+				CC440F46292535C70093D605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC440F12292535C60093D605 /* Project object */;
+}
